@@ -1,4 +1,36 @@
 @charset "UTF-8";
+
+.ProximaNovaA-Bold { 
+	font-family: ProximaNovaA-Bold;
+	font-weight: normal;
+	font-style: normal;
+}
+.ProximaNovaA-Light { 
+	font-family: ProximaNovaA-Light;
+	font-weight: normal;
+	font-style: normal;
+}
+.ProximaNovaS-Bold { 
+	font-family: ProximaNovaS-Bold;
+	font-weight: normal;
+	font-style: normal;
+}
+.ProximaNovaS-Light { 
+	font-family: ProximaNovaS-Light;
+	font-weight: normal;
+	font-style: normal;
+}
+.ProximaNova-Bold { 
+	font-family: ProximaNova-Bold;
+	font-weight: normal;
+	font-style: normal;
+}
+.ProximaNova-Light { 
+	font-family: ProximaNova-Light;
+	font-weight: normal;
+	font-style: normal;
+}
+
 *, :before, :after{
     box-sizing: border-box;
     margin: 0;
@@ -16,7 +48,9 @@ html, body{
 body{
     width: 100%;
     overflow: hidden;
-    background-color: #0b6468;
+    background-color: #006469;
+    font-size: 1rem;
+    font-family: ProximaNova-Light, Arial, Helvetica, sans-serif;
 }
 
 div, .relative{

@@ -44,7 +44,7 @@ function handleWithMainWrapper(div){
                        var jsItem=data["js"][i];
                        
                        JavaScript.load(jsItem, function() {
-                           dinyamicUseScript();
+                           dinyamicUseScript(myApp);
                            //Timeout to load the content and properly display it
                            div.html(data["content"]);
                       });
