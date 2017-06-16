@@ -24,7 +24,7 @@
         <icon src="res/android/mipmap-xxxhdpi/ic_launcher.png" density="xxxhdpi" />
     </platform>
      <platform name="ios">
-         <preference name="Orientation" value="all" />
+         <preference name="Orientation" value="portrait" />
          <splash src="res/ios/splash/splash.png" />
         <!-- iPhone 6 / 6+ -->
         <icon src="res/ios/icon/icon-60@3x.png" platform="ios" width="180" height="180" />
@@ -75,8 +75,5 @@
     <plugin name="cordova-plugin-statusbar" source="npm" >
         
     </plugin>
-    <preference name="StatusBar">
-        <param name="ios-package" value="CDVStatusBar" onload="true" />
-    </preference>
     <preference name="phonegap-version" value="cli-6.5.0" />
 </widget>
