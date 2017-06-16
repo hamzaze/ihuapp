@@ -14,6 +14,7 @@
   <preference name="SplashScreenDelay" value="3000" /> 
   <preference name="Fullscreen" value="true" />
   <icon src="images/icon.png"/>
+  <splash src="splash.png" />
   <platform name="android">
         <icon src="res/android/mipmap-ldpi/ic_launcher.png" density="ldpi" />
         <icon src="res/android/mipmap-mdpi/ic_launcher.png" density="mdpi" />
@@ -23,6 +24,7 @@
         <icon src="res/android/mipmap-xxxhdpi/ic_launcher.png" density="xxxhdpi" />
     </platform>
      <platform name="ios">
+         <splash src="res/ios/splash/splash.png" />
         <!-- iPhone 6 / 6+ -->
         <icon src="res/ios/icon/icon-60@3x.png" platform="ios" width="180" height="180" />
 
