@@ -24,6 +24,7 @@
         <icon src="res/android/mipmap-xxxhdpi/ic_launcher.png" density="xxxhdpi" />
     </platform>
      <platform name="ios">
+         <preference name="Orientation" value="all" />
          <splash src="res/ios/splash/splash.png" />
         <!-- iPhone 6 / 6+ -->
         <icon src="res/ios/icon/icon-60@3x.png" platform="ios" width="180" height="180" />
@@ -63,7 +64,6 @@
         <icon src="res/ios/icon/Icon-Small-50x50@1x.png" platform="ios" width="50" height="50" />
         <icon src="res/ios/icon/Icon-Small-50x50@2x.png" platform="ios" width="100" height="100" />
     </platform>
-    <preference name="orienation" value="portrait" />
     <preference name="target-device" value="handset" />
     <preference name="deployment-target" value="8.0" />
     <preference name="DisallowOverscroll" value="true"/>
@@ -78,8 +78,5 @@
     <preference name="StatusBar">
         <param name="ios-package" value="CDVStatusBar" onload="true" />
     </preference>
-    <preference name="StatusBarOverlaysWebView" value="false" /> 
-    <preference name="StatusBarBackgroundColor" value="#000000" />
-    <preference name="StatusBarStyle" value="lightcontent" />
     <preference name="phonegap-version" value="cli-6.5.0" />
 </widget>
