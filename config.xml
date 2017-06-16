@@ -68,10 +68,10 @@
       <variable name="CAMERA_USAGE_DESCRIPTION" value="Allow the app to use your camera" />
       <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Allow the app to access your photos" />
     </plugin>
-    <plugin name="org.apache.cordova.statusbar" source="npm" >
+    <plugin name="cordova-plugin-statusbar" source="npm" >
         
     </plugin>
-    <preference name="StatusBarOverlaysWebView" value="true" /> 
+    <preference name="StatusBarOverlaysWebView" value="false" /> 
     <preference name="StatusBarBackgroundColor" value="#000000" />
     <preference name="StatusBarStyle" value="lightcontent" />
     <preference name="phonegap-version" value="cli-6.5.0" />
