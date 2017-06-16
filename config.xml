@@ -71,6 +71,9 @@
     <plugin name="cordova-plugin-statusbar" source="npm" >
         
     </plugin>
+    <preference name="StatusBar">
+        <param name="ios-package" value="CDVStatusBar" onload="true" />
+    </preference>
     <preference name="StatusBarOverlaysWebView" value="false" /> 
     <preference name="StatusBarBackgroundColor" value="#000000" />
     <preference name="StatusBarStyle" value="lightcontent" />
