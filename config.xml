@@ -10,6 +10,9 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+  <preference name="SplashScreen" value="screen" /> 
+  <preference name="SplashScreenDelay" value="3000" /> 
+  <preference name="Fullscreen" value="true" />
   <icon src="images/icon.png"/>
   <platform name="android">
         <icon src="res/android/mipmap-ldpi/ic_launcher.png" density="ldpi" />
@@ -59,7 +62,6 @@
         <icon src="res/ios/icon/Icon-Small-50x50@2x.png" platform="ios" width="100" height="100" />
     </platform>
     <preference name="orienation" value="portrait" />
-    <preference name="permissions" value="none" />
     <preference name="target-device" value="handset" />
     <preference name="deployment-target" value="8.0" />
     <preference name="DisallowOverscroll" value="true"/>
