@@ -24,7 +24,6 @@
         <icon src="res/android/mipmap-xxxhdpi/ic_launcher.png" density="xxxhdpi" />
     </platform>
      <platform name="ios">
-         <preference name="Orientation" value="portrait" />
          <splash src="res/ios/splash/splash.png" />
         <!-- iPhone 6 / 6+ -->
         <icon src="res/ios/icon/icon-60@3x.png" platform="ios" width="180" height="180" />
@@ -64,10 +63,12 @@
         <icon src="res/ios/icon/Icon-Small-50x50@1x.png" platform="ios" width="50" height="50" />
         <icon src="res/ios/icon/Icon-Small-50x50@2x.png" platform="ios" width="100" height="100" />
     </platform>
+    <preference name="Orientation" value="portrait" />
     <preference name="target-device" value="handset" />
     <preference name="deployment-target" value="8.0" />
     <preference name="DisallowOverscroll" value="true"/>
     <plugin name="cordova-plugin-whitelist" spec="~1.2.0" />
+    <plugin name="cordova-plugin-screen-orientation" source="npm" />
     <plugin name="cordova-plugin-camera" source="npm" >
       <variable name="CAMERA_USAGE_DESCRIPTION" value="Allow the app to use your camera" />
       <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Allow the app to access your photos" />
