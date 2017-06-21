@@ -74,5 +74,9 @@
       <variable name="CAMERA_USAGE_DESCRIPTION" value="Allow the app to use your camera" />
       <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Allow the app to access your photos" />
     </plugin>
+    <plugin name="cordova-plugin-facebook" source="npm" >
+      <variable name="FACEBOOK_DISPLAY_NAME" value="iHUMORU.com" />
+      <variable name="FACEBOOK_APP_ID" value="260386974412443" />
+    </plugin>
     <preference name="phonegap-version" value="cli-6.5.0" />
 </widget>
