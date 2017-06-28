@@ -21,6 +21,33 @@ var isAjaxLoaded=false;
 var pathToAjaxDispatcher="http://www.ihumoru.com/appengine/php/ajaxDispatcher.php";
 
 function handleWithMainWrapper(div){
+    
+    CordovaFacebook.login({
+   permissions: ['email', 'user_likes'],
+   onSuccess: function(result) {
+      if(result.declined.length > 0) {
+         alert("The User declined something!");
+      }
+      /* ... */
+   },
+   onFailure: function(result) {
+      if(result.cancelled) {
+         alert("The user doesn't like my app");
+      } else if(result.error) {
+         alert("There was an error:" + result.errorLocalized);
+      }
+   }
+});
+return false;
+        
+        
+        
+    
+    
+    
+    
+    
+    
     if(isAjaxLoaded) return false;
     isAjaxLoaded=true;
     var postData={id: comedianID, context: "loadMainAPPWrapper"};
@@ -60,7 +87,10 @@ function handleWithMainWrapper(div){
 
 if($$("#mainWrapper").length>0){
     //APP loads dynamic content
-    handleWithMainWrapper($$("#mainWrapper"));
+    window.setTimeout(function(){
+        handleWithMainWrapper($$("#mainWrapper"));
+    }, 100);
+    
 }
 
 
